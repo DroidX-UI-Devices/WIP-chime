@@ -112,6 +112,12 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     libstdc++.vendor \
     libgui_vendor
+<<<<<<< HEAD
+=======
+
+PRODUCT_PACKAGES += \
+    GCamGo
+>>>>>>> 237e71c (camera: replace Aperture with SGCamGo)
 
 # Component overrides
 PRODUCT_COPY_FILES += \
