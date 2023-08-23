@@ -1,17 +1,17 @@
 #
-# Copyright (C) 2023 Lilium Project
+# Copyright (C) 2023 droidx Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_citrus.mk \
-    $(LOCAL_DIR)/aosp_lime.mk
+    $(LOCAL_DIR)/droidx_citrus.mk \
+    $(LOCAL_DIR)/droidx_lime.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_citrus-user \
-    aosp_citrus-userdebug \
-    aosp_citrus-eng \
-    aosp_lime-user \
-    aosp_lime-userdebug \
-    aosp_lime-eng
+    droidx_citrus-user \
+    droidx_citrus-userdebug \
+    droidx_citrus-eng \
+    droidx_lime-user \
+    droidx_lime-userdebug \
+    droidx_lime-eng
