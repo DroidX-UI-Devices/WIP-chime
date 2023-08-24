@@ -21,3 +21,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Droidx Gapps
 DROIDX_GAPPS := true
+DROIDX_BUILD_TYPE := OFFICIAL
