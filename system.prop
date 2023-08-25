@@ -61,3 +61,7 @@ persist.sys.disable_rescue=true
 # SSR
 persist.vendor.ssr.enable_ramdumps=1
 persist.vendor.ssr.restart_level=ALL_ENABLE
+
+# WFD settings
+debug.sf.enable_hwc_vds=0
+media.wfd.max_resolution=6
