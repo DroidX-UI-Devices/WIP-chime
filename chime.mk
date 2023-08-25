@@ -34,6 +34,10 @@ OVERRIDE_TARGET_FLATTEN_APEX := true
 # Product Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# Init
+PRODUCT_PACKAGES += \
+    init.mi_thermald.rc
+
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
@@ -157,6 +161,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \
     android.hardware.drm-service.clearkey
+
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0
 
 # FM
 PRODUCT_PACKAGES += \
