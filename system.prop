@@ -12,7 +12,7 @@ debug.sf.enable_hwc_vds=1
 debug.sf.latch_unsignaled=1
 
 # DroidX-UI Maintainer
-ro.droidx.maintainer=NotGanesh
+ro.droidx.maintainer=|< GaneshJadhav >|
 
 # DPM
 persist.vendor.dpm.feature=1
