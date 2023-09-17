@@ -122,6 +122,10 @@ ro.vendor.bluetooth.wipower=false
 af.fast_track_multiplier=1
 camera.disable_zsl_mode=1
 
+#support unlimited color temperature adjust
+ro.vendor.colorpick_adjust=true
+ro.vendor.all_modes.colorpick_adjust
+
 # CNE
 persist.vendor.cne.feature=1
 
