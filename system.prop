@@ -43,7 +43,7 @@ mmp.enable.3g2=true
 ro.media.recorder-max-base-layer-fps=60
 
 # Netflix
-ro.netflix.bsp_rev=Q6115-31409-1
+ro.netflix.bsp_rev=Q8250-19134-1
 
 # NFC
 ro.nfc.port=I2C
