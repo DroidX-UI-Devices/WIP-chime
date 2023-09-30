@@ -9,11 +9,12 @@ sleep 1
 
 # Clone kernel
 git clone https://github.com/hac4us06/kernel-xiaomi-electro -b main kernel/xiaomi/chime
+
 # Setup kernel
 (cd kernel/xiaomi/chime; git submodule init; git submodule update; sed -i 's/#ifdef CONFIG_KPROBES/#if 0/g' KernelSU/kernel/ksu.c)
 
 rm -rf system/libhidl
-then (not imp. but anyways)
+
 git clone https://github.com/ArrowOS/android_system_libhidl.git -b arrow-13.0 system/libhidl
 
 # Clone vendor
