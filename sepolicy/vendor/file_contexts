@@ -69,7 +69,7 @@
 /data/vendor/thermal(/.*)?                                              u:object_r:thermal_data_file:s0
 
 # Vibrator
-/vendor/bin/hw/vendor\.qti\.hardware\.vibrator\.service\.chime          u:object_r:hal_vibrator_default_exec:s0
+/vendor/bin/hw/vendor\.qti\.hardware\.vibrator\.service\.          u:object_r:hal_vibrator_default_exec:s0
 
 # WiFi
 /vendor/bin/nv_mac                                                      u:object_r:vendor_wcnss_service_exec:s0

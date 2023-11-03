@@ -8,10 +8,7 @@ sleep 1
 
 
 # Clone kernel
-git clone --depth=1 https://github.com/hac4us06/kernel-xiaomi-electro -b main kernel/xiaomi/chime
-
-# Setup kernel
-(cd kernel/xiaomi/chime; git submodule init; git submodule update; sed -i 's/#ifdef CONFIG_KPROBES/#if 0/g' KernelSU/kernel/ksu.c)
+git clone --depth=1 https://github.com/itsHanibee/kernel_xiaomi_chime.git -b main kernel/xiaomi/chime
 
 rm -rf system/libhidl
 
@@ -22,5 +19,7 @@ git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_
 git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_citrus.git -b thirteen vendor/xiaomi/citrus
 git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_lime.git -b thirteen vendor/xiaomi/lime
 
+rm -rf hardware/xiaomi
+
 # Hardware
-git clone https://github.com/hac4us06/hardware_xiaomi -b thirteen hardware/xiaomi
+git clone https://github.com/Project-Elixir/hardware_xiaomi.git -b thirteen hardware/xiaomi

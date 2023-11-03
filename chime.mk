@@ -505,11 +505,11 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.chime \
+    vendor.qti.hardware.vibrator.service \
     vendor.qti.hardware.vibrator-impl
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/vibrator/etc/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
+    hardware/xiaomi/aidl/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # VNDK
 PRODUCT_COPY_FILES += \
